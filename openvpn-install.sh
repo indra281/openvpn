@@ -1,7 +1,4 @@
 #!/bin/bash
-#
-
-
 
 # Detect Debian users running the script with "sh" instead of bash
 if readlink /proc/$$/exe | grep -q "dash"; then
